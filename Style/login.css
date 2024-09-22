@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+}
+
+.conatainer_login{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--desactivColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    & .card_logine{
+        background-color: var(--mainColor);
+        width: 80%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+        & .col_1{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px 10px;
+
+            & h2{
+                font-size: 3rem;
+                margin-bottom: 40px;
+            }
+
+            & form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 40px;
+                width: 100%;
+
+                & label{
+                    align-self: self-start;
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                    letter-spacing: .5px;
+                    margin-bottom: 10px;
+                    color: var(--seecondColor);
+                    margin-left: 80px;
+                }
+
+                & input{
+                    outline: none;
+                    border: none;
+                    padding: 10px 15px;
+                    font-size: 1rem;
+                    margin-bottom: 15px;
+                    border-radius: 10px;
+                    width: 70%;
+                }
+                 
+                & .button_sign{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+
+                    & button{
+                        background-color: var(--desactivColor2);
+                        border: none;
+                        outline: none;
+                        width: 30%;
+                        height: 35px;
+                        border-radius: 15px;
+                        margin: 0 15px;
+                        transition: all 1.5s linear;
+                        cursor: pointer;
+                        & a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            & .link_ather{
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                
+                & a{
+                    margin-right: 10px;
+                    color: var(--seecondColor);
+                    & i{
+
+                        font-size: 1.7rem;
+                    }
+                }          
+              }
+        }
+
+        & .col_2{
+                & img{
+                    width: 740px;
+                    height: 604px;
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+                }
+            }
+
+
+
+    }
+
+}
+input:active,input:hover{
+    transform: scale(1.1);
+}
+
+form button:hover{
+    animation-name: button;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+    0%{
+        background-color: var(--desactivColor2);
+        
+    }
+    20%{
+        background-color: var(--desactivColor2);
+    }
+
+    50%{
+        background-color: var( --TherdColor);
+    }
+    75%{
+        background-color: var( --TherdColor);
+    }
+
+    100%{
+        background-color: var(--desactivColor2);
+    }
+}

@@ -1,0 +1,30 @@
+:root{
+    /* --mainColor:#FF735C;
+    --seecondColor:#385A64;
+    --TherdColor:#C17460;
+    --ComplementColor:#855040;
+    --desactivColor:#ECECEC;
+    --desactivColor2:#c5bcbc; */
+
+
+
+/* 
+    --mainColor: #FF6F61;      /* A vibrant coral color */
+    /* --seecondColor: #3B6978;   /* A deep teal */
+    /* --TherdColor: #FFA07A;     Soft light salmon */
+    /* --ComplementColor: #5C4033;A rich chestnut brown */
+    /* --desactivColor: #F5F5F5;  Light grey */
+    /* --desactivColor2: #D3D3D3;  */ */
+     */
+    
+    --mainColor: #FF6347;      /* A bright tomato red */
+    --seecondColor: #2C7873;   /* A cool teal green */
+    --TherdColor: #FFB347;     /* A warm apricot orange */
+    --ComplementColor: #8B4513;/* A dark saddle brown */
+    --desactivColor: #F0F0F0;  /* Soft off-white */
+    --desactivColor2: #B8B8B8; /* A neutral light grey */
+/* Warm grey */
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
