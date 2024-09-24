@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="./Style/header.css">
     <link rel="stylesheet" href="./Style/font.css">
     <link rel="stylesheet" href="./Style/dashbordmain.css">
+    <link rel="stylesheet" href="./Style/ContentDashbord.css">
 </head>
 <body>
     <div class="cotainer">
         <?php echo $header ?>
-        <?php echo $Sidebare ?>
-        <?php echo $content; ?>
+        <div class="pageGrid">
+            <div class="col1">
+                <?php echo $Sidebare ?>
+            </div>
+            <div class="col2">
+                <?php echo $content; ?>
+            </div>
+        </div>
     </div>
 </body>
 <script src="./Js/DashBoard.js"></script>

@@ -14,16 +14,20 @@
     /* --TherdColor: #FFA07A;     Soft light salmon */
     /* --ComplementColor: #5C4033;A rich chestnut brown */
     /* --desactivColor: #F5F5F5;  Light grey */
-    /* --desactivColor2: #D3D3D3;  */ */
-     */
+    /* --desactivColor2: #D3D3D3;  */ 
     
-    --mainColor: #FF6347;      /* A bright tomato red */
-    --seecondColor: #2C7873;   /* A cool teal green */
-    --TherdColor: #FFB347;     /* A warm apricot orange */
-    --ComplementColor: #8B4513;/* A dark saddle brown */
-    --desactivColor: #F0F0F0;  /* Soft off-white */
-    --desactivColor2: #B8B8B8; /* A neutral light grey */
-/* Warm grey */
+    
+    /* --mainColor: #FF6347;    
+    --seecondColor: #2C7873;   
+    --TherdColor: #FFB347;     
+    --ComplementColor: #8B4513;
+    --desactivColor: #F0F0F0;  
+    --desactivColor2: #B8B8B8; */
+
+    --mainColor: #D1E9F6;    
+    --color2: #F6EACB;   
+    --color3: #F1D3CE;     
+    --color4: #EECAD5;
 
 }
 

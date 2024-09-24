@@ -8,8 +8,8 @@
     function headerMain(){
         include_once "./view/header.php";
     }
-    function SidbareMain(){
-        include_once "./view/header.php";
-    }
 
+    function ContentPage(){
+        include_once "./view/content.php";
+    }
 ?>

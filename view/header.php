@@ -10,19 +10,22 @@
             <span id="AccountDropdown">
             <img src="./asset/MorocanFace.jpg" alt="MorocanFace">
             MR.Admin
-            </span>
-            <i class="fa-solid fa-message"></i>
-        </div>
-        <div class="accountDrop">
+            <!-- __________________ -->
+            <div class="accountDrop">
             <a href="#">
-                <i class="fa-solid fa-gear"></i>
                 Setting
+                <i class="fa-solid fa-gear"></i>
             </a>
             <hr>
             <a href="#">
-            <i class="fas fa-sign-out"></i>
                 Log Out
+            <i class="fas fa-sign-out"></i>
             </a>
+        </div>
+            </span>
+            <i class="fa-solid fa-message"></i>
+            <!-- ____________ -->
+
         </div>
     </header>
 <?php $header=ob_get_clean();?>
@@ -76,6 +79,18 @@
             <li><a href="#">
             <i class="fa-solid fa-wallet"></i>
                 Wallet
+            <span><i class="fa-solid fa-angle-right"></i></span>
+            </a>
+            </li>
+            <li><a href="#">
+            <i class="fa-solid fa-layer-group"></i>
+            Stock
+            <span><i class="fa-solid fa-angle-right"></i></span>
+            </a>
+            </li>
+            <li><a href="#">
+            <i class="fa-solid fa-trophy"></i>
+            Top Products
             <span><i class="fa-solid fa-angle-right"></i></span>
             </a>
             </li>
